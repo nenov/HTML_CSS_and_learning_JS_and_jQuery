@@ -1,0 +1,80 @@
+body{
+background-image: url("../images/background2.jpg");
+background-size: 100% ;
+}
+#contain-wrapper{
+	width: auto;
+	height: 400px;
+	-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+cursor: default;
+}
+
+#header{
+	border-style: solid;
+	background-color: transparent;
+	height: 115px;
+}
+
+#welcome{
+
+	font-family: 'Oleo Script Swash Caps', cursive;
+	top: 10px;
+	position: absolute;
+	left:80px;
+	color: white;
+	font-size: 5em;
+
+}
+#contant{
+	position: absolute;
+	right: 50px;
+	top: 150px;
+	width: 500px;
+	height: 260px;
+	background: transparent;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+}
+
+#me-button{
+	position: absolute;
+	top: 150px;
+	left: 70px;
+}
+#me-button2{
+	position: absolute;
+	top: 290px;
+	left: 210px;
+}
+#me-button3{
+	position: absolute;
+	top: 420px;
+	left: 70px;
+
+}
+
+.menu{
+	display:block;
+	width:150px;
+	height:150px;
+	border-radius:750px;
+	font-size:19px;
+	color:#fff;
+	text-align:center;
+	text-decoration:none;
+	background:#000;
+	vertical-align: middle;
+	line-height: 150px;
+}
+.link{
+	
+		text-decoration:none;
+}
+
+.menu:hover{color:#ccc;text-decoration:none;background:#333}

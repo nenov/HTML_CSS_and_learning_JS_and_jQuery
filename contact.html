@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en";
+<head>
+	<meta charset="utf-8"/>
+	<title>Contact me</title>
+	<link rel="stylesheet"  href="css/stylecontact.css">
+	<link rel="stylesheet"  href="css/normalize.css">
+
+	<link href='http://fonts.googleapis.com/css?family=Cherry+Swash' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps' rel='stylesheet' type='text/css'>
+<script src="css/script.js" type="text/javascript" ></script>
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script src="jquery-1.9.0.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="body-container">
+	<header id="header">
+		
+		<span id="welcome" class="classy">Contact me</span>
+	<nav id="nav">
+			<ul id="list">
+				<div id="menu1"><img id="contacticon" src="images/me-button.png"></div>
+				<div id="menu2"><img id="bgicon" src="images/Bulgaria.png"></div>
+				<div id="menu3"><img id="homeicon"src="images/home-icon.png"></div>
+			</ul>
+		</nav>	
+	</header>
+
+
+	<div id="main-content-wrapper">
+		<div id="main-content">
+			<form name="htmlform" method="post" action="html_form_send.php">
+<table id="table">
+</tr>
+<tr>
+ <td valign="top">
+  <label for="first_name">First Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top">
+  <label for="last_name">Last Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="email">Email Address *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+ 
+</tr>
+<tr>
+ <td valign="top">
+  <label for="telephone">Telephone Number</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ </td>
+</tr>
+
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" formaction="#" value="Submit">  
+ </td>
+</tr>
+</table>
+</form>
+
+		</div>
+		
+
+
+	</div>
+
+	
+</div>
+</body>
+<script type="text/javascript">
+
+$(document).ready(function()
+{
+	
+	
+	$('#menu3').click(function() {window.location = "index.html";});
+	$('#menu2').click(function() {window.location = "bg.html";});
+	$('#menu1').click(function() {window.location = "aboutme.html";});
+
+	$('#menu3').hover (function(){
+  		 $(this).animate({width:"250px",align:"center"},400);
+  		},function(){
+ 		 $(this).stop(true, true).animate({width:"80px"},600);
+		});
+	$('#menu2').hover (function(){
+  		 $(this).animate({width:"250px",align:"center"},400);
+  		},function(){
+ 		 $(this).stop(true, true).animate({width:"80px"},600);
+		});
+	$('#menu1').hover (function(){
+  		 $(this).animate({width:"250px",align:"center"},400);
+
+  		},function(){
+ 		 $(this).stop(true, true).animate({width:"80px"},600);
+		});
+});
+</script>
+</html>
+

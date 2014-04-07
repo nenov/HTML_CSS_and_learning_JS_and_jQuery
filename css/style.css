@@ -1,0 +1,126 @@
+body{
+background-image: url("../images/background.jpg");
+background-size: 100% ;
+}
+#contain-wrapper{
+	width: auto;
+	height: 400px;
+	-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+cursor: default;
+}
+
+#header{
+	border-style: solid;
+	background-color: white;
+	height: 115px;
+}
+
+#welcome{
+
+	font-family: 'Oleo Script Swash Caps', cursive;
+	top: 10px;
+	position: absolute;
+	left:80px;
+
+}
+#welcome2{
+	font-family: 'Oleo Script Swash Caps', cursive;
+	top:50px;
+	position: absolute;
+	left:130px;
+}
+
+#info{
+	font-size: 1em;
+	font-family: 'Cherry Swash', cursive;
+	color: #FFCC66;
+	-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+cursor: default;
+}
+
+#nav{
+	padding-top: 0px;
+	margin-right: 0px;
+}
+#homeicon{
+	width: 80px;
+	height: 80px;
+}
+#bgicon{
+	width: 80px;
+	height: 80px;
+}
+#contacticon{
+	width: 80px;
+	height: 80px;
+}
+ul#list{
+
+	margin-top: 0px;
+	float: right;
+	padding: 10px;
+}
+ul#list div{
+
+	padding-top: 0px;
+	float: right;
+	margin: 7px;
+}
+#contant{
+	position: absolute;
+	right: 50px;
+	top: 150px;
+	width: 500px;
+	height: 260px;
+	background: transparent;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+}
+#menu1{
+	width: 80px;
+	height: 80px;
+	background-color: #6699FF;
+}
+
+#menu2{
+	width: 80px;
+	height: 80px;
+	background-color: #FFCC33;
+}
+
+#menu3{
+	width: 80px;
+	height: 80px;
+	background-color: #99FF33;
+}
+
+.slider-wrapper{
+	position: absolute;
+	top:150px;
+	left: 120px;
+}
+.classy {
+	font-size: 2em;
+  background: url('../images/stripe.png');
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+cursor: default;
+}
+
